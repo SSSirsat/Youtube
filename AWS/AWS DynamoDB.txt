@@ -1,0 +1,60 @@
+Introduction
+What is AWS DynamoDB?
+Definition
+DynamoDB is a fast and flexible NoSQL database designed for applications that need consistent, 
+single-digit millisecond latency at any scale.it is a fully managed database and it supports both
+ document and key value data models.
+
+It has a very flexible data model. This means that you don't need to define your database schema 
+upfront. It also has reliable performance.
+
+DynamoDB is a good fit for mobile gaming, ad-tech, IoT and many other applications.
+
+
+DynamoDB Tables
+DynamoDB tables consist of:
+
+Items (Think of a row of data in a table).
+
+Attributes ((Think of a column of data in a table).
+
+Supports key-value and document data structures.
+
+Key= the name of the data.  Value= the data itself.
+
+Document can be written in JSON, HTML or XML.
+
+DynamoDB - Primary Keys
+DynamoDB stores and retrieves data based on a Primary key
+
+DynamoDB also uses Partition keys to determine the physical location data is stored.
+
+If you are using a partition key as your Primary key, then no items will have the same Partition key.
+
+Composite Keys (Partition Key + Sort Key) can be used in Combination.
+
+Two items may have the same partition key, but must have a different sort key.
+
+All items with the same partition key are stored together and then sorted according to the sort key value.
+
+DynamoDB allows you to store multiple items with the same partition keys.
+
+NoSQL Workbench
+ NoSQL is basically a Non-Relational Database, with a lot of other advantages too.
+
+NoSQL Workbench is a virtual development as well as a testing environment for developers across the globe.
+
+It allows the users to test their data models over a large number of aspects of functionality and also 
+allows them to develop their software, right from the scratch with ease.
+
+In simple terms, the NoSQL Workbench is an IDE platform that includes data modeling, data visualization,
+ and operation building.
+
+Data Modeling: Workbench enables users with a facility to build new data models right from scratch or by
+ using existing data models.
+
+Data Visualization: As the name suggests, it provides the graphical representation of information and data..
+
+Operation Building: Workbench is a strong and reliable platform for building applications and also has 
+a great graphical user interface which eventually makes the communication between the database and the
+ user easier. 
